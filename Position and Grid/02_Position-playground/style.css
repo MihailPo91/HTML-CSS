@@ -1,0 +1,44 @@
+/* @import url(https://kit.fontawesome.com/8bdb0b57f4.css); */
+
+.card {
+    display: block;
+}
+
+.card img {
+
+    position: relative;
+    left: 500px;
+    border-radius: 5px;
+}
+
+.viewport {
+    padding: 100px;
+}
+
+.viewport.first {
+    background-image: linear-gradient(to right, blue, green);
+
+}
+
+.viewport.second {
+    background-image: linear-gradient(to right, magenta, orange);
+
+}
+
+.viewport.first i {
+    position: absolute;
+    right: 630px;
+    top: 410px;
+    z-index: 100;
+    scale: 1.5;
+    color: white;
+}
+
+.viewport.second i {
+    position: absolute;
+    right: 630px;
+    top: 1360px;
+    z-index: 100;
+    scale: 2;
+    color: white;
+}
