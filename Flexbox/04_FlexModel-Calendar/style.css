@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+    flex-grow: 1;
+    height: 300px;
+}
+
+.week {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    height: 100%;
+    text-align: center;
+}
+
+.item {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.wide {
+    flex-basis: 100%;
+    flex-grow: 1;
+}

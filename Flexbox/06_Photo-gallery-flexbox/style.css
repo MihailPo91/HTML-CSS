@@ -1,0 +1,34 @@
+body {
+    background-color: gray;
+    display: flex;
+}
+
+.gallery {
+    display: flex;
+    max-width: 80vw;
+    padding: 150px;
+}
+
+.gallery ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.gallery ul .pic-holder {
+    flex: 1 1 15%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    border: 7px solid black;
+    background-color: white;
+}
+
+.gallery ul .pic-holder img {
+    object-fit: contain;
+    display: flex;
+}
