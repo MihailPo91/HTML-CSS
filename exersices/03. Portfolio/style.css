@@ -1,0 +1,169 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;900&display=swap');
+
+/* Global */
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding: 36px;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 36px;
+    width: 100%;
+    margin: auto;
+    min-width: 900px;
+}
+
+article {
+    background-color: #efefef;
+    height: 80vh;
+    flex: 1 1 100%;
+    overflow: hidden;
+
+}
+
+.title {
+    font-size: 2.8rem;
+    font-weight: 100;
+}
+
+.title .bold {
+    font-weight: 900;
+}
+
+.text {
+    width: 100%;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+/* Header */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 100px;
+    padding: 24px 24px 0px 120px;
+}
+
+.header .nav i {
+    scale: 1.2;
+    position: relative;
+    left: 10px;
+}
+
+.header .nav span {
+    font-size: 1.2rem;
+}
+
+.header .content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    padding: 0px 24px 36px 64px;
+}
+
+.header img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    gap: 64px;
+    padding: 64px;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    justify-content: center;
+}
+
+.hero .content p {
+    width: 100%;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.hero h1 .bold {
+    font-weight: 900;
+}
+
+.hero .content .media-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 48px;
+}
+
+.hero .content .media-icons i {
+    background-color: lightgray;
+    scale: 2;
+}
+
+/* Photo holder */
+
+.photo-holder img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Gallery */
+
+/* Contact */
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 120px 10px 120px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    gap: 60px;
+}
+
+.contact .container form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact .container form .email {
+    width: 45%;
+}
+
+.contact .container form .subject {
+    width: 45%;
+}
+
+.contact .container form .message {
+    width: 100%;
+}
