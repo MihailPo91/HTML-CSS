@@ -1,0 +1,40 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    border-radius: 6px;
+    box-shadow: 5px 5px 20px dimgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.card .description {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h4 {
+    font-family: Georgia, serif;
+}
+
+.card .description button {
+    background-color: rgb(0, 153, 0);
+}

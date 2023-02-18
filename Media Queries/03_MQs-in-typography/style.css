@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 24px 108px;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1300px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1800px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1801px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    align-self: middle;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.page {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img1 {
+    float: right;
+    margin-left: 10px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.img2 {
+    float: left;
+    margin-right: 10px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.split {
+    display: flex;
+}
+
+.quote {
+    border-left: 1px solid darkgray;
+    padding-left: 30px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.quote .author {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .split {
+        display: block;
+    }
+
+    .quote {
+        padding-left: 0px;
+    }
+}
+
+h1,
+h2 {
+    font-family: Georgia, serif;
+}
