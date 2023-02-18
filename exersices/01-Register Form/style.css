@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+html {
+    font-family: Mulish;
+}
+
+body {
+    background-image: url(images/background.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+}
+
+.card {
+    font-size: 12px;
+    height: 400px;
+    border-radius: 12px;
+    margin: auto;
+    padding: 30px;
+    background-size: cover;
+    background-image: url(images/form-background.png);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "form ."
+    ;
+    box-shadow: 5px 5px 30px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field input {
+    border-radius: 25px;
+    border-width: 1px;
+    height: 30px;
+}
+
+.card .form-holder form {
+    display: grid;
+    grid-area: form;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "heading heading"
+        "first last"
+        "email email"
+        "pass1 pass1"
+        "pass2 pass2"
+        "terms terms"
+        "btn btn"
+    ;
+    gap: 15px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.card .heading {
+    grid-area: heading;
+    font-size: 1.6em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card .first-name {
+    grid-area: first;
+}
+
+.card .last-name {
+    grid-area: last;
+}
+
+.card .email {
+    grid-area: email;
+}
+
+.card .password {
+    grid-area: pass1;
+}
+
+.card .password2 {
+    grid-area: pass2;
+}
+
+.card .terms {
+    grid-area: terms;
+}
+
+.card .terms input {
+    margin-right: 10px;
+}
+
+.card .btn {
+    grid-area: btn;
+    width: 50%;
+    margin: auto;
+    border-radius: 25px;
+    background-color: crimson;
+    color: white;
+    height: 30px;
+    border: none;
+    box-shadow: none;
+}
