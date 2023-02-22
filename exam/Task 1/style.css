@@ -1,0 +1,87 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+
+/* Global */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section */
+
+.container {
+    background-color: #f6e0b5;
+    width: 60vw;
+    height: 600px;
+    margin-top: 64px;
+    overflow: hidden;
+    display: flex;
+    padding: 48px;
+}
+
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    row-gap: 24px;
+    column-gap: 36px;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 16px;
+    box-shadow: 5px 5px 50px;
+    flex: 1 1 33%;
+}
+
+.cards img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+}
+
+.cards p {
+    background-color: #66545e;
+    height: 35px;
+    width: 100%;
+    vertical-align: middle;
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+/* Categories */
+
+.category {
+    width: 250px;
+    color: #66545e;
+    padding: 4px 24px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 10px;
+}
+
+.category .category-list {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
